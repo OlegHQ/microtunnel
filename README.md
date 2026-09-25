@@ -9,7 +9,7 @@ Self-hosted HTTPS tunnels made simple — using Go, Caddy, and Cloudflare.
 - WebSocket-based tunneling (no raw TCP needed).
 - Fully self-hosted: your domain, your rules.
 
-[Read the full story here →](https://nexo.sh/posts/building-your-own-https-tunnel/)
+[Read the full story here →](https://olegpustovit.com/posts/building-your-own-https-tunnel/)
 
 ---
 
@@ -53,7 +53,7 @@ Build and run the server:
 go run main.go --port 3000 --base-domain-name=tunnel.example.com
 ```
 
-Caddy needs to be set up separately for wildcard HTTPS. See full guide in [the article](https://nexo.sh/posts/building-your-own-https-tunnel/).
+Caddy needs to be set up separately for wildcard HTTPS. See full guide in [the article](https://olegpustovit.com/posts/building-your-own-https-tunnel/).
 
 ---
 
